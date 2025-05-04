@@ -301,14 +301,16 @@ body {
 }
 
 .experiences__company-project-role {
-  color: var(--durability-text-color);
+  color: var(--gradient-start);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
+  font-weight: 600;
+  opacity: 80%;
 }
 
 .experiences__company-project-name {
-  color: var(--primary-text-color);
+  color: var(--primary-accent);
   text-align: left;
   margin-bottom: 10px;
 }
@@ -323,6 +325,12 @@ body {
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
+  font-size: 12px;
+}
+
+.experiences-footer {
+  width: auto;
+  height: 180px;
 }
 
 .additional-info {
