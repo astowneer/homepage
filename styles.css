@@ -347,21 +347,32 @@ body {
   margin-bottom: 20px;
 }
 
+.additional-info__education-university {
+  margin-bottom: 20px;
+}
+
 .additional-info__education-university-durability {
-  color: var(--durability-text-color);
+  color: var(--gradient-start);
   text-align: left;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 80%;
 }
 
 .additional-info__education-university-speciality {
-  color: var(--primary-text-color);
+  color: var(--primary-accent);
   text-align: left;
   margin-bottom: 10px;
+}
+
+.additional-info__education-university-speciality-item {
+  font-weight: bold;
 }
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+  font-size: 12px;
 }
 
 .additional-info__languages {
@@ -376,6 +387,7 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+  font-size: 12px;
 }
 
 .additional-info__timeline-header {
@@ -384,24 +396,30 @@ body {
   margin-bottom: 20px;
 }
 
+.additional-info__timeline-game-changer {
+  margin-bottom: 20px;
+}
+
 .additional-info__timeline-game-changer-dates {
-  color: var(--durability-text-color);
+  color: var(--gradient-start);
   text-align: left;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 80%;
 }
 
 .additional-info__timeline-game-changer-event {
-  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+  font-size: 12px;
 }
 
 .additional-info__timeline-game-changer-desc {
   color: var(--secondary-text-color);
-  padding-left: 20px;
+  font-size: 12px;
+  font-weight: 400;
 }
-
 
 .section {
   margin: 50px auto;
