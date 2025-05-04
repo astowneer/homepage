@@ -228,12 +228,6 @@ body {
   text-align: justify;
 }
 
-.skills__header {
-  color: var(--secondary-text-color);
-  text-align: center;
-  margin-bottom: 15px;
-}
-
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -362,4 +356,40 @@ body {
 .additional-info__timeline-game-changer-desc {
   color: var(--secondary-text-color);
   padding-left: 20px;
+}
+
+
+.section {
+  margin: 50px auto;
+  padding: 30px 0;
+  max-width: 900px;
+}
+
+.section-header {
+  width: 100%;
+  display: flex;
+  gap: var(--section-gap);
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: var(--section-title-size);
+  font-weight: var(--section-title-weight);
+  background: var(--section-title-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.section-underline {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: var(--section-underline-height);
+  background: var(--section-underline-gradient);
+  align-self: flex-end;
 }
